@@ -47,7 +47,7 @@ output = model(input_data)
 print(output)
 ```
 ## Credits
-This implementation is inspired by the concepts used in efficient mixtral architectures, adapting them to make an efficient block-sparse MoE implementation in PyTorch.
+This implementation is inspired by the concepts and code used in efficient mixtral architectures, adapting them to make an efficient block-sparse MoE implementation in PyTorch.
 
 
 
