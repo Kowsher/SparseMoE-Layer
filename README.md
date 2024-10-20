@@ -20,8 +20,9 @@ This repository contains an efficient implementation of a Mixture of Experts (Mo
 To use the `SparseMoeBlock`, clone this repository and import the class into your project:
 
 ```bash
-`git clone https://github.com/your-repository/sparse-moe-block.git
-cd sparse-moe-block`
+git clone https://github.com/your-repository/sparse-moe-block.git
+cd sparse-moe-block
+```
 ## Usage
 
 Here's an example of how to use the `SparseMoeBlock` in your PyTorch model:
@@ -44,6 +45,9 @@ model = ExampleModel()
 input_data = torch.randn(10, 256)  # Example input data
 output = model(input_data)
 print(output)
+```
+## Credits
+This implementation is inspired by the concepts used in efficient MoE architectures, adapting them to make an efficient block-sparse MoE implementation in PyTorch.
 
 
 
